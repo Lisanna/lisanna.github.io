@@ -25,10 +25,10 @@ a {
   color: var(--main-lightblue);
   text-decoration: none;
 }
-
 a:hover {
   color: var(--main-lightblue);
-  text-decoration: none;
+  text-decoration: underline;
+  /*font-weight: bold;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -462,6 +462,15 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
+}
+.resume-title-education {
+  color: var(--main-orange) !important;
+}
+.resume-title-profession {
+  color: var(--main-lightblue) !important;
+}
+.resume-title-mission {
+  color: var(--main-grey) !important;
 }
 
 .resume .resume-item {
@@ -991,6 +1000,31 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
+
+.img-squared-logo {
+  width: 5rem;
+  height: 5rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 0 500px;
+  /*box-sizing: border-box;*/
+  margin: 1rem .25em;
+}
+@media screen and (min-width: 40em) {
+  .card {
+    max-width: calc(50% -  1em);
+  }
+}
+@media screen and (min-width: 60em) {
+  .card {
+    max-width: calc(25% - 1em);
+  }
+}
+
 
 @-webkit-keyframes animate-loading {
   0% {
