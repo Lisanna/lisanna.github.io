@@ -35,6 +35,16 @@
   ======================================================== -->
 </head>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190769091-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-190769091-1');
+</script>
+
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -56,12 +66,12 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-<!--          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>-->
-<!--          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>-->
-<!--          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>-->
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span class="nav-text">Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span class="nav-text">About</span></a></li>
+<!--          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span class="nav-text">Resume</span></a></li>-->
+<!--          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span class="nav-text">Portfolio</span></a></li>-->
+<!--          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span class="nav-text">Services</span></a></li>-->
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span class="nav-text">Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -84,33 +94,38 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Open-minded, charismatic and resolute individual, multiplicity of skills and interests. Bioinformatics
-            researcher accustomed to write technical reports, scientific papers and to curate graphical and oral
-            presentations of complex scientific materials. Data analyst, software engineer, database designer and
-            web developer. Highly involved in strategic planning of research activities, grant application writing,
-            project management, team coordination. Strong commitment to open science and FAIRification, organisation
-            of public events, activist in science communication and coding and data science teaching. </p>
+          <p>Open-minded, charismatic and resolute individual, multiplicity of skills and interests. <b>Bioinformatics
+            researcher</b> accustomed to write <b>technical reports</b>, scientific papers and to curate graphical and oral
+            <b>presentations</b> of complex scientific materials. <b>Data analyst</b>, software engineer, <b>database designer</b> and
+            web developer. Highly involved in strategic planning of research activities, <b>grant application writing</b>,
+            <b>project management</b>, team coordination. Strong commitment to <b>open science</b> and FAIRification, organisation
+            of public events, involved in <b>science communication</b> and coding and data science <b>teaching</b>. </p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          <div class="col-lg-2" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid img-avatar" alt="Avatar">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-10 pt-4 pt-lg-0 content" data-aos="fade-left">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>21 June 1991</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhD:</strong> <span>Biomedical Sciences, Bioinformatics</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Master Degree:</strong> <span>Bioinformatics</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Bachelor Degree:</strong> <span>Biology</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+39 3480932659</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>lisanna.paladin@gmail.com</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Padova, Italy</span></li>
                 </ul>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>29</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>PhD</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>lisanna.paladin@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>21 June 1991</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Employed at:</strong> <span>University of Padova, Italy</span></li>
                 </ul>
               </div>
             </div>
@@ -582,9 +597,13 @@
                 <p>+39 3480932659</p>
               </div>
 
-<!--              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>-->
             </div>
 
+          </div>
+
+          <div class="col-lg-7 d-flex align-items-stretch">
+            <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzzCrQVjafkcRLC4aqu02gsE&key=AIzaSyBgzkLd-gPwaSA0D2RlzdIECILOUcsoUZA"></iframe>
           </div>
 
 <!--          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">-->
@@ -634,7 +653,8 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> <br>
+        Customised by <a href="https://github.com/Lisanna/">Lisanna</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
